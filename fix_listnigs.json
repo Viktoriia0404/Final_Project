@@ -1,0 +1,102 @@
+[
+    {
+        "model": "listings_app.listing",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "title": "First Listing",
+            "description": "Beautiful house in the city center.",
+            "location": "Main Street",
+            "city": "Berlin",
+            "rooms": 3.0,
+            "property_type": "house",
+            "price": "150000.00",
+            "available_from": "2024-11-19",
+            "available_until": "2025-11-19",
+            "created_at": "2024-11-19T09:00:00Z",
+            "update_at": "2024-11-19T09:00:00Z",
+            "avg_rating": 4,
+            "is_active": true
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 2,
+        "fields": {
+            "owner": 1,
+            "title": "Second Listing",
+            "description": "Spacious apartment with a great view.",
+            "location": "Park Avenue",
+            "city": "Hamburg",
+            "rooms": 2.0,
+            "property_type": "apartment",
+            "price": "90000.00",
+            "available_from": "2024-12-01",
+            "available_until": "2025-12-01",
+            "created_at": "2024-11-20T10:00:00Z",
+            "update_at": "2024-11-20T10:00:00Z",
+            "avg_rating": 5,
+            "is_active": true
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 3,
+        "fields": {
+            "owner": 1,
+            "title": "Third Listing",
+            "description": "Cozy studio for short-term rent.",
+            "location": "Green Street",
+            "city": "Munich",
+            "rooms": 1.0,
+            "property_type": "studio",
+            "price": "50000.00",
+            "available_from": "2025-01-01",
+            "available_until": "2025-06-01",
+            "created_at": "2024-11-21T11:00:00Z",
+            "update_at": "2024-11-21T11:00:00Z",
+            "avg_rating": 3,
+            "is_active": true
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 4,
+        "fields": {
+            "owner": 1,
+            "title": "Fourth Listing",
+            "description": "Luxury villa near the sea.",
+            "location": "Beach Road",
+            "city": "Düsseldorf",
+            "rooms": 5.0,
+            "property_type": "house",
+            "price": "500000.00",
+            "available_from": "2025-03-01",
+            "available_until": "2026-03-01",
+            "created_at": "2024-11-22T12:00:00Z",
+            "update_at": "2024-11-22T12:00:00Z",
+            "avg_rating": 5,
+            "is_active": true
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 5,
+        "fields": {
+            "owner": 1,
+            "title": "Fifth Listing",
+            "description": "Affordable apartment close to public transport.",
+            "location": "Station Street",
+            "city": "Frankfurt",
+            "rooms": 2.0,
+            "property_type": "apartment",
+            "price": "70000.00",
+            "available_from": "2024-12-15",
+            "available_until": "2025-12-15",
+            "created_at": "2024-11-23T13:00:00Z",
+            "update_at": "2024-11-23T13:00:00Z",
+            "avg_rating": 4,
+            "is_active": true
+        }
+    }
+]

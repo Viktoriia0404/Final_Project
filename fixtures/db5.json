@@ -1,0 +1,1077 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-07T12:16:48.799Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "landlord",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-07T12:17:18.220Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "notlandlord",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-07T12:17:21.703Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "notlandlord",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-07T12:17:36.169Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "landlord",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-11-07T12:24:16.746Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "modern-studio-2024-11-08",
+        "object_repr": "Modern Studio",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-11-07T12:24:27.444Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "beautiful-apartment-2024-11-06",
+        "object_repr": "Beautiful Apartment",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-11-07T12:29:57.024Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "landlord",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-11-07T12:30:07.135Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "notlandlord",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-11-07T12:31:18.080Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "landlord",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-11-07T12:32:16.503Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "landlord",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-11-07T12:34:11.111Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "notlandlord",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-11-10T11:58:30.715Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "notlandlord",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 7,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 7,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 7,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 7,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 8,
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 8,
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 8,
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 8,
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add search query",
+        "content_type": 9,
+        "codename": "add_searchquery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change search query",
+        "content_type": 9,
+        "codename": "change_searchquery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete search query",
+        "content_type": 9,
+        "codename": "delete_searchquery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view search query",
+        "content_type": 9,
+        "codename": "view_searchquery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add listing",
+        "content_type": 10,
+        "codename": "add_listing"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change listing",
+        "content_type": 10,
+        "codename": "change_listing"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete listing",
+        "content_type": 10,
+        "codename": "delete_listing"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view listing",
+        "content_type": 10,
+        "codename": "view_listing"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add booking",
+        "content_type": 11,
+        "codename": "add_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change booking",
+        "content_type": 11,
+        "codename": "change_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete booking",
+        "content_type": 11,
+        "codename": "delete_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view booking",
+        "content_type": 11,
+        "codename": "view_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add User Profile",
+        "content_type": 12,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change User Profile",
+        "content_type": 12,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete User Profile",
+        "content_type": 12,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view User Profile",
+        "content_type": 12,
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add review",
+        "content_type": 13,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change review",
+        "content_type": 13,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete review",
+        "content_type": 13,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view review",
+        "content_type": 13,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Plo3osCpwaBb0MHqavfIJl$1PuxjFsC5qPs80dARSNrKikmWCFunSm2F3LE+gKEm64=",
+        "last_login": "2024-11-10T11:58:10.773Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mial.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-07T12:15:29.308Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$f9lJjKL2HiB5ENoa7ofy43$meQ4uzyXlzaR1CmTv1GJqkzIOaIu+64Lh/9n0v6S6TQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "landlord",
+        "first_name": "landlord",
+        "last_name": "landlord",
+        "email": "landlord@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-07T12:16:47Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$puFw9B88bkcafiYQKD0VLN$HrwuLVEVAbReRcaepPjUrdinm8W+0VgIUh8eQWo68aA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "notlandlord",
+        "first_name": "",
+        "last_name": "",
+        "email": "notlandlord@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-07T12:17:16Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$jqq7fyAR38LooF7NReltUB$n1GA93e9D+AW4LrNhdP6ko8vtl3XqfWhPZlcREWR7LY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "notlandlord2",
+        "first_name": "dsad",
+        "last_name": "Andrii",
+        "email": "notlandlord2@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-08T13:58:41.291Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$5xSjgur76rUksOwqVnGVQz$1hCDgizBtbFVz2ginQoN2OmlQH+vKYGmNCSB1ykv9wU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "new_landlord",
+        "first_name": "Andrii",
+        "last_name": "Butov",
+        "email": "new_landlord@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-11T12:38:32.252Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$LVm2IjkLD2PvBgi7qTgzCW$w11u6+vY52pxbIFKnWNVYRB605YM6KXwX7Xmw0UcC24=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "notlandlord3",
+        "first_name": "Andrii",
+        "last_name": "Butov",
+        "email": "notlandlord@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-11T12:39:24.901Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "tokenproxy"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "listings_app",
+        "model": "searchquery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "listings_app",
+        "model": "listing"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "listings_app",
+        "model": "booking"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "listings_app",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "listings_app",
+        "model": "review"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "05153gs8u0by42c8sw9e9jlu767oqggi",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-JbYp6TmDtWvv4gBypDipEHeHSCmgfTPzXiLBtta0dVrSVMRZaHH63RDyg9oOyh3abZZ5busyodwVedAur3Oh5-Vw_w4q9PqtkcFbBXGw2rHJxaDFYGi0WlNkBofemRBHNbioQyCVg0ZGKJ7ZZeXF-wPjszgC:1tA6a2:ri0kHzY-QvL4rfE8AtpiVtp-_PwCrbrhdPzIC4wmQhM",
+        "expire_date": "2024-11-24T11:58:10.784Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9rzb4ku4pj7olqr056a81yi7lghf1g9s",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-JbYp6TmDtWvv4gBypDipEHeHSCmgfTPzXiLBtta0dVrSVMRZaHH63RDyg9oOyh3abZZ5busyodwVedAur3Oh5-Vw_w4q9PqtkcFbBXGw2rHJxaDFYGi0WlNkBofemRBHNbioQyCVg0ZGKJ7ZZeXF-wPjszgC:1t91iF:fnaFFYAAbY5SaGNXIFWyJtlYfeIT5uxYer7iLqu6Abg",
+        "expire_date": "2024-11-21T12:34:11.144Z"
+    }
+},
+{
+    "model": "listings_app.profile",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "phone_number": "",
+        "is_landlord": true
+    }
+},
+{
+    "model": "listings_app.profile",
+    "pk": 2,
+    "fields": {
+        "user": 4,
+        "phone_number": "0976498954",
+        "is_landlord": false
+    }
+},
+{
+    "model": "listings_app.profile",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "phone_number": "",
+        "is_landlord": false
+    }
+},
+{
+    "model": "listings_app.profile",
+    "pk": 4,
+    "fields": {
+        "user": 5,
+        "phone_number": "0976498954",
+        "is_landlord": true
+    }
+},
+{
+    "model": "listings_app.profile",
+    "pk": 5,
+    "fields": {
+        "user": 6,
+        "phone_number": "09764989",
+        "is_landlord": false
+    }
+},
+{
+    "model": "listings_app.listing",
+    "pk": "beautiful-apartment-2024-11-06",
+    "fields": {
+        "owner": 2,
+        "title": "Beautiful Apartment",
+        "description": "A lovely two-bedroom apartment in the city center.",
+        "location": "Main Street, 123",
+        "city": "Berlin",
+        "rooms": 2.0,
+        "property_type": "apartment",
+        "price": "1500.00",
+        "available_from": "2024-11-01",
+        "available_until": "2025-03-01",
+        "created_at": "2024-11-06T02:49:34.380Z",
+        "update_at": "2024-11-07T12:24:27.436Z",
+        "is_active": true
+    }
+},
+{
+    "model": "listings_app.listing",
+    "pk": "cozy-house-2024-11-07",
+    "fields": {
+        "owner": 2,
+        "title": "Cozy House",
+        "description": "A charming house in a quiet neighborhood.",
+        "location": "Garden Avenue, 45",
+        "city": "Hamburg",
+        "rooms": 3.5,
+        "property_type": "house",
+        "price": "2000.00",
+        "available_from": "2024-12-01",
+        "available_until": "2025-06-01",
+        "created_at": "2024-11-07T08:10:00Z",
+        "update_at": "2024-11-07T08:10:00Z",
+        "is_active": true
+    }
+},
+{
+    "model": "listings_app.listing",
+    "pk": "modern-studio-2024-11-08",
+    "fields": {
+        "owner": 2,
+        "title": "Modern Studio",
+        "description": "A stylish studio apartment perfect for singles or couples.",
+        "location": "Downtown, 78",
+        "city": "Munich",
+        "rooms": 1.0,
+        "property_type": "studio",
+        "price": "1000.00",
+        "available_from": "2024-11-10",
+        "available_until": "2025-02-28",
+        "created_at": "2024-11-08T10:30:00Z",
+        "update_at": "2024-11-07T12:24:16.740Z",
+        "is_active": true
+    }
+},
+{
+    "model": "listings_app.listing",
+    "pk": "mysql-2024-11-12",
+    "fields": {
+        "owner": 2,
+        "title": "mysql",
+        "description": "dsfsfd",
+        "location": "dssdf",
+        "city": "sdffsf",
+        "rooms": 2.0,
+        "property_type": "apartment",
+        "price": "12344.00",
+        "available_from": "2024-11-13",
+        "available_until": "2024-11-20",
+        "created_at": "2024-11-12T09:50:56.082Z",
+        "update_at": "2024-11-12T09:50:56.082Z",
+        "is_active": true
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 1,
+    "fields": {
+        "listing": "beautiful-apartment-2024-11-06",
+        "owner": 3,
+        "start_date": "2024-12-01",
+        "end_date": "2024-12-15",
+        "is_confirmed": false,
+        "is_canceled": true,
+        "cancel_deadline": null
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 2,
+    "fields": {
+        "listing": "cozy-house-2024-11-07",
+        "owner": 3,
+        "start_date": "2024-12-05",
+        "end_date": "2024-12-20",
+        "is_confirmed": true,
+        "is_canceled": false,
+        "cancel_deadline": "2024-12-03"
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 3,
+    "fields": {
+        "listing": "modern-studio-2024-11-08",
+        "owner": 3,
+        "start_date": "2025-01-10",
+        "end_date": "2025-01-20",
+        "is_confirmed": false,
+        "is_canceled": true,
+        "cancel_deadline": "2025-01-08"
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 4,
+    "fields": {
+        "listing": "beautiful-apartment-2024-11-06",
+        "owner": 3,
+        "start_date": "2024-11-10",
+        "end_date": "2024-11-16",
+        "is_confirmed": false,
+        "is_canceled": false,
+        "cancel_deadline": null
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 5,
+    "fields": {
+        "listing": "beautiful-apartment-2024-11-06",
+        "owner": 3,
+        "start_date": "2024-11-10",
+        "end_date": "2024-11-15",
+        "is_confirmed": false,
+        "is_canceled": false,
+        "cancel_deadline": null
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 6,
+    "fields": {
+        "listing": "beautiful-apartment-2024-11-06",
+        "owner": 3,
+        "start_date": "2024-11-10",
+        "end_date": "2024-11-15",
+        "is_confirmed": false,
+        "is_canceled": false,
+        "cancel_deadline": null
+    }
+},
+{
+    "model": "listings_app.booking",
+    "pk": 7,
+    "fields": {
+        "listing": "mysql-2024-11-12",
+        "owner": 3,
+        "start_date": "2024-11-13",
+        "end_date": "2024-11-13",
+        "is_confirmed": false,
+        "is_canceled": false,
+        "cancel_deadline": null
+    }
+},
+{
+    "model": "listings_app.review",
+    "pk": 1,
+    "fields": {
+        "listing": "beautiful-apartment-2024-11-06",
+        "user": 3,
+        "rating": 5,
+        "comment": "Absolutely loved it, would stay again!",
+        "created_at": "2024-11-07T18:29:48.158Z"
+    }
+}
+]

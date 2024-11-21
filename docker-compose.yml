@@ -1,0 +1,21 @@
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - '8000:8000'
+    environment:
+      - MYSQL=True
+      - DB_NAME=Y_Andrii_Butov_DJANGO_FINAL
+      - DB_USER=ich1
+      - DB_PASSWORD=ich1_password_ilovedbs
+      - DB_HOST=ich-edit.edu.itcareerhub.de
+      - DB_PORT=3306
+      - SECRET_KEY=django-insecure-hn(=2++em)&vg@(1#k09atue7njwcashogj_$t4mio++$7t5go
+      - ALLOWED_HOSTS=127.0.0.1,localhost
+      - DEBUG=True

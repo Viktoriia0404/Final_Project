@@ -1,0 +1,56 @@
+[
+    {
+        "model": "listings_app.listing",
+        "pk": 10,
+        "fields": {
+            "owner": 10,
+            "title": "Cozy Apartment in Berlin",
+            "description": "A beautiful and cozy apartment located in the heart of Berlin.",
+            "location": "Berlin, Germany",
+            "price": "1500.00",
+            "rooms": 2,
+            "property_type": "apartment",
+            "is_active": true,
+            "created_at": "2024-10-01T10:00:00Z",
+            "update_at": "2024-10-05T12:00:00Z",
+            "city": "Berlin",
+            "slug": "cozy-apartment-in-berlin-2024-10-01"
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 20,
+        "fields": {
+            "owner": 20,
+            "title": "Modern Studio in Munich",
+            "description": "A modern and fully furnished studio located in a quiet neighborhood in Munich.",
+            "location": "Munich, Germany",
+            "price": "1200.00",
+            "rooms": 1,
+            "property_type": "studio",
+            "is_active": true,
+            "created_at": "2024-09-15T14:30:00Z",
+            "update_at": "2024-09-20T16:45:00Z",
+            "city": "Munich",
+            "slug": "modern-studio-in-munich-2024-09-15"
+        }
+    },
+    {
+        "model": "listings_app.listing",
+        "pk": 30,
+        "fields": {
+            "owner": 30,
+            "title": "Spacious House in Hamburg",
+            "description": "A spacious house perfect for a family, located in a quiet suburb of Hamburg.",
+            "location": "Hamburg, Germany",
+            "price": "3000.00",
+            "rooms": 4,
+            "property_type": "house",
+            "is_active": true,
+            "created_at": "2024-08-20T09:15:00Z",
+            "update_at": "2024-08-25T11:30:00Z",
+            "city": "Hamburg",
+            "slug": "spacious-house-in-hamburg-2024-08-20"
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "listings_app.profile",
+        "pk": 10,
+        "fields": {
+            "user": 10,
+            "phone_number": "+4915123456789",
+            "is_landlord": true
+        }
+    },
+    {
+        "model": "listings_app.profile",
+        "pk": 20,
+        "fields": {
+            "user": 20,
+            "phone_number": "+4915123456790",
+            "is_landlord": false
+        }
+    },
+    {
+        "model": "listings_app.profile",
+        "pk": 30,
+        "fields": {
+            "user": 30,
+            "phone_number": "+4915123456791",
+            "is_landlord": true
+        }
+    }
+]
